@@ -1,0 +1,6 @@
+Graph has: 
+6 nodes.
+20 edges.
+Average degree 3.3333333333333335
+Infinity
+-1

@@ -1,0 +1,6 @@
+Graph has: 
+3 nodes.
+4 edges.
+Average degree 1.3333333333333333
+City2 TruckDepot City1 46.0
+City2 TruckDepot City1 2

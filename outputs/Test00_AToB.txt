@@ -1,0 +1,6 @@
+Graph has: 
+2 nodes.
+1 edges.
+Average degree 0.5
+Infinity
+-1

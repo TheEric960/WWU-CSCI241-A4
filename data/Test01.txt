@@ -1,0 +1,4 @@
+City2 TruckDepot 12
+TruckDepot City2 12
+City1 TruckDepot 34
+TruckDepot City1 34

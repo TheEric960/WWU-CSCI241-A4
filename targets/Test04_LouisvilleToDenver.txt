@@ -1,0 +1,6 @@
+Graph has: 
+50 nodes.
+250 edges.
+Average degree 5.0
+Louisville Washington Athens OverlandPark Denver 88.0
+Louisville BelAir Asheville Denver 3

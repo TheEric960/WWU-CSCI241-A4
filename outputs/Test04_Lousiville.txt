@@ -1,0 +1,13 @@
+
+> Task :run
+Graph has: 
+50 nodes.
+250 edges.
+Average degree 5.0
+Shortest paths from KansasCity
+KansasCity: 0.0
+
+KansasCity: 0
+
+BUILD SUCCESSFUL in 0s
+2 actionable tasks: 1 executed, 1 up-to-date

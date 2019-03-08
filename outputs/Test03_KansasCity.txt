@@ -1,0 +1,6 @@
+Graph has: 
+34 nodes.
+172 edges.
+Average degree 5.0588235294117645
+Shortest paths from KansasCity
+

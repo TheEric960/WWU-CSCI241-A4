@@ -1,0 +1,10 @@
+Graph has: 
+2 nodes.
+1 edges.
+Average degree 0.5
+Shortest paths from A
+A: 0.0
+B: 1.0
+
+A: 0
+B: 1

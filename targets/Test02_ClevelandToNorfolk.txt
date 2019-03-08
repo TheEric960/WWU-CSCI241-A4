@@ -1,0 +1,6 @@
+Graph has: 
+6 nodes.
+20 edges.
+Average degree 3.3333333333333335
+Cleveland PompanoBeach Norfolk 26.0
+Cleveland LongBeach Norfolk 2
