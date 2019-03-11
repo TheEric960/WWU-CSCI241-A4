@@ -31,6 +31,9 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+
+    // A4 depends on A3 Heap class
+    compile files('libs/heap.jar')
 }
 
 // Define the main class for the application

@@ -2,5 +2,5 @@ Graph has:
 2 nodes.
 1 edges.
 Average degree 0.5
-Infinity
--1
+A B 1.0
+A B 1

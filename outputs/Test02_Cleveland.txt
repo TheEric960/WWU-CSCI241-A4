@@ -3,4 +3,16 @@ Graph has:
 20 edges.
 Average degree 3.3333333333333335
 Shortest paths from Cleveland
+LongBeach: 37.0
+Ithaca: 26.0
+Provo: 41.0
+Cleveland: 0.0
+PompanoBeach: 15.0
+Norfolk: 26.0
 
+LongBeach: 1
+Ithaca: 1
+Provo: 1
+Cleveland: 0
+PompanoBeach: 1
+Norfolk: 2

@@ -2,5 +2,5 @@ Graph has:
 34 nodes.
 172 edges.
 Average degree 5.0588235294117645
-Infinity
--1
+KansasCity Murfreesboro Vallejo Melbourne 72.0
+KansasCity Murfreesboro Vallejo Melbourne 3
