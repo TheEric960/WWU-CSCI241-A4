@@ -1,9 +1,8 @@
 package graph;
 
-import java.util.Map;
-import java.util.HashMap;
-import java.util.LinkedList;
+import java.util.*;
 import java.io.FileNotFoundException;
+import heap.*;
 
 /** Provides an implementation of Dijkstra's single-source shortest paths
  * algorithm.
@@ -27,11 +26,32 @@ public class ShortestPaths {
      * backpointer to the previous node on the shortest path.
      * Precondition: origin is a node in the Graph.*/
     public void compute(Node origin) {
-        paths = new HashMap<Node,PathData>();
+        paths = new HashMap<Node, PathData>();
+        HashMap<Node, Double> S = new HashMap<>();
+        HashMap<Node, Double> F = new HashMap<>();
+        F.put(origin, 0.0);
+        double d = 0;
+        Node f = null;
 
-        // TODO 1: implement Dijkstra's algorithm to fill paths with
-        // shortest-path data for each Node reachable from origin.
+        while (!F.isEmpty()) {
+            double min = Double.POSITIVE_INFINITY;
+            for (Node n : F.keySet()) {
+                double c = F.get(n);
+                if (c < min) {
+                    min = c;
+                    f = n;
+                }
+            }
+            S.put(f, F.remove(f));
 
+            for (Node n : f.getNeighbors().keySet()) {
+                if (!S.containsKey(n) && !F.containsKey(n)) {
+                    paths.put(n, new PathData(F.get(f), f));
+                } else if(F.get(f) + paths.get(n).distance < paths.get(f).distance) {
+                    paths.put(n, new PathData(F.get(f), f));
+                }
+            }
+        }
     }
 
 
