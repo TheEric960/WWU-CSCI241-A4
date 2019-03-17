@@ -1,0 +1,46 @@
+Hello! This is [todo1_name] grading your A4.
+
+Your grade for A4 is based on correctness, efficiency, and clarity, as
+described in the rubric on the A4 handout.
+
+Your total score is [todo2_score] / 20
+
+===================================
+Repository and submission mechanics
+===================================
+[todo3_score] / 1 point:
+Code is pushed to github and hours spent appear as a lone integer in hours.txt
+[todo3_comment]
+
+=======================================
+Correctness: Unit Tests from test.sh
+=======================================
+
+Unit tests (see unittests.txt for details):
+[todo4_score] / 14
+[todo4_comment]
+
+==========
+Efficiency
+=========
+
+[todo5_score] / 3 The method compute() uses a Heap to find the node to move from F to S in O(log N).
+[todo5_comment]
+
+[todo6_score] / 3 The body of the for loop in compute() runs in O(log N) expected time.
+[todo6_comment]
+
+**See files in directory targets/ for expected outputs**
+
+==================
+Clarity Deductions
+==================
+
+[todo7_deduct] no author, date, and purpose at the top of ShortestPaths.java
+[todo8_deduct] methods introduced are not accompanied by a specification
+[todo9_deduct] non-obvious code sections are missing explanatory comments
+[todo10_deduct] indentation is inconsistent
+[todo11_deduct] private helper methods are not used to keep methods short
+[todo12_deduct] code is overly verbose / lacks conciseness
+[todo13_deduct] code is overly terse or cryptic
+

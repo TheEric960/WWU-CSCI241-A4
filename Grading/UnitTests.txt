@@ -1,0 +1,581 @@
+mkdir: cannot create directory ‘outputs’: File exists
+Exception in thread "main" java.lang.NullPointerException
+	at graph.ShortestPaths.compute(ShortestPaths.java:49)
+	at graph.ShortestPaths.main(ShortestPaths.java:174)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s
+
+####################################################################################
+############################## Test00.txt A ########################################
+####################################################################################
+
+
+
+
+
+Test 1 failed
+=============
+< "Your output"
+---
+> "Expected output"
+=============
+4a5,10
+> Shortest paths from A
+> A: 0.0
+> B: 1.0
+> 
+> A: 0
+> B: 1
+
+
+
+
+
+Exception in thread "main" java.lang.NullPointerException
+	at graph.ShortestPaths.compute(ShortestPaths.java:49)
+	at graph.ShortestPaths.main(ShortestPaths.java:174)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s
+
+#########################################################################################
+############################## Test00.txt A to B ########################################
+#########################################################################################
+
+
+
+
+
+Test 2 failed
+=============
+< "Your output"
+---
+> "Expected output"
+=============
+4a5,6
+> A B 1.0
+> A B 1
+
+
+
+
+
+Exception in thread "main" java.lang.NullPointerException
+	at graph.ShortestPaths.compute(ShortestPaths.java:49)
+	at graph.ShortestPaths.main(ShortestPaths.java:174)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s
+
+########################################################################################
+############################## Test01.txt City2 ########################################
+########################################################################################
+
+
+
+
+
+Test 3 failed
+=============
+< "Your output"
+---
+> "Expected output"
+=============
+4a5,12
+> Shortest paths from City2
+> City2: 0.0
+> City1: 46.0
+> TruckDepot: 12.0
+> 
+> City2: 0
+> City1: 2
+> TruckDepot: 1
+
+
+
+
+
+Exception in thread "main" java.lang.NullPointerException
+	at graph.ShortestPaths.compute(ShortestPaths.java:49)
+	at graph.ShortestPaths.main(ShortestPaths.java:174)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s
+
+#################################################################################################
+############################## Test01.txt City2 to City1 ########################################
+#################################################################################################
+
+
+
+
+
+Test 4 failed
+=============
+< "Your output"
+---
+> "Expected output"
+=============
+4a5,6
+> City2 TruckDepot City1 46.0
+> City2 TruckDepot City1 2
+
+
+
+
+
+Exception in thread "main" java.lang.NullPointerException
+	at graph.ShortestPaths.compute(ShortestPaths.java:49)
+	at graph.ShortestPaths.main(ShortestPaths.java:174)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s
+
+############################################################################################
+############################## Test02.txt Cleveland ########################################
+############################################################################################
+
+
+
+
+
+Test 5 failed
+=============
+< "Your output"
+---
+> "Expected output"
+=============
+4a5,18
+> Shortest paths from Cleveland
+> LongBeach: 37.0
+> Ithaca: 26.0
+> Provo: 41.0
+> Cleveland: 0.0
+> PompanoBeach: 15.0
+> Norfolk: 26.0
+> 
+> LongBeach: 1
+> Ithaca: 1
+> Provo: 1
+> Cleveland: 0
+> PompanoBeach: 1
+> Norfolk: 2
+
+
+
+
+
+Exception in thread "main" java.lang.NullPointerException
+	at graph.ShortestPaths.compute(ShortestPaths.java:49)
+	at graph.ShortestPaths.main(ShortestPaths.java:174)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s
+
+#######################################################################################################
+############################## Test02.txt Cleveland to Norfolk ########################################
+#######################################################################################################
+
+
+
+
+
+Test 6 failed
+=============
+< "Your output"
+---
+> "Expected output"
+=============
+4a5,6
+> Cleveland PompanoBeach Norfolk 26.0
+> Cleveland LongBeach Norfolk 2
+
+
+
+
+
+Exception in thread "main" java.lang.NullPointerException
+	at graph.ShortestPaths.compute(ShortestPaths.java:49)
+	at graph.ShortestPaths.main(ShortestPaths.java:174)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s
+
+#############################################################################################
+############################## Test03.txt KansasCity ########################################
+#############################################################################################
+
+
+
+
+
+Test 7 failed
+=============
+< "Your output"
+---
+> "Expected output"
+=============
+4a5,74
+> Shortest paths from KansasCity
+> Milwaukee: 71.0
+> Murfreesboro: 6.0
+> Erie: 77.0
+> Bakersfield: 29.0
+> Melbourne: 72.0
+> MyrtleBeach: 86.0
+> Aurora: 95.0
+> JohnsonCity: 56.0
+> Atlanta: 59.0
+> Fargo: 23.0
+> Racine: 82.0
+> Gulfport-Biloxi: 80.0
+> Augusta: 79.0
+> KansasCity: 0.0
+> Murrieta: 55.0
+> GreenBay: 83.0
+> Rochester: 87.0
+> Greenville: 7.0
+> HavredeGrace: 86.0
+> Downey: 64.0
+> Hollywood: 62.0
+> CoralSprings: 84.0
+> Norwalk: 59.0
+> Worcester: 34.0
+> PalmBay: 79.0
+> PortSt.Lucie: 20.0
+> Rockford: 92.0
+> SantaCruz: 58.0
+> TruckDepot: 87.0
+> Vallejo: 66.0
+> Lacey: 58.0
+> Hesperia: 64.0
+> Richmond: 79.0
+> Houston: 90.0
+> 
+> Milwaukee: 3
+> Murfreesboro: 1
+> Erie: 3
+> Bakersfield: 2
+> Melbourne: 3
+> MyrtleBeach: 4
+> Aurora: 5
+> JohnsonCity: 3
+> Atlanta: 2
+> Fargo: 1
+> Racine: 4
+> Gulfport-Biloxi: 3
+> Augusta: 3
+> KansasCity: 0
+> Murrieta: 2
+> GreenBay: 4
+> Rochester: 3
+> Greenville: 1
+> HavredeGrace: 4
+> Downey: 4
+> Hollywood: 2
+> CoralSprings: 4
+> Norwalk: 3
+> Worcester: 1
+> PalmBay: 3
+> PortSt.Lucie: 2
+> Rockford: 4
+> SantaCruz: 2
+> TruckDepot: 4
+> Vallejo: 2
+> Lacey: 2
+> Hesperia: 3
+> Richmond: 3
+> Houston: 4
+
+
+
+
+
+Exception in thread "main" java.lang.NullPointerException
+	at graph.ShortestPaths.compute(ShortestPaths.java:49)
+	at graph.ShortestPaths.main(ShortestPaths.java:174)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s
+
+##########################################################################################################
+############################## Test03.txt KansasCity to Melbourne ########################################
+##########################################################################################################
+
+
+
+
+
+Test 8 failed
+=============
+< "Your output"
+---
+> "Expected output"
+=============
+4a5,6
+> KansasCity Murfreesboro Vallejo Melbourne 72.0
+> KansasCity Murfreesboro Vallejo Melbourne 3
+
+
+
+
+
+Exception in thread "main" java.lang.NullPointerException
+	at graph.ShortestPaths.compute(ShortestPaths.java:49)
+	at graph.ShortestPaths.main(ShortestPaths.java:174)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s
+
+#############################################################################################
+############################## Test04.txt Louisville ########################################
+#############################################################################################
+
+
+
+
+
+Test 9 failed
+=============
+< "Your output"
+---
+> "Expected output"
+=============
+4a5,106
+> Shortest paths from Louisville
+> Topeka: 88.0
+> Brownsville: 54.0
+> Erie: 102.0
+> ChulaVista: 88.0
+> Waterloo: 80.0
+> PortSaintLucie: 79.0
+> RichmondCounty: 82.0
+> JohnsonCity: 76.0
+> St.Louis: 121.0
+> Grayslake: 72.0
+> ElPaso: 108.0
+> Anaheim: 75.0
+> BatonRouge: 89.0
+> Savannah: 113.0
+> Temecula: 89.0
+> Athens: 33.0
+> OverlandPark: 42.0
+> Hollywood: 68.0
+> Knoxville: 105.0
+> Sarasota: 66.0
+> HuntingtonBeach: 58.0
+> LosAngeles: 107.0
+> Newark: 92.0
+> ElMonte: 119.0
+> BelAir: 32.0
+> VirginiaBeach: 73.0
+> Joliet: 104.0
+> Ithaca: 40.0
+> Louisville: 0.0
+> Washington: 23.0
+> RoundLakeBeach: 46.0
+> Omaha: 140.0
+> Nashua: 117.0
+> NewYork: 87.0
+> Davenport: 149.0
+> Denver: 88.0
+> Dallas: 53.0
+> Clearwater: 132.0
+> ElkGrove: 132.0
+> SanJose: 66.0
+> DaytonaBeach: 39.0
+> Yakima: 81.0
+> FortWayne: 124.0
+> SantaCruz: 90.0
+> Garland: 10.0
+> Asheville: 83.0
+> AppleValley: 69.0
+> CollegeStation: 74.0
+> Evansville: 98.0
+> Lacey: 115.0
+> 
+> Topeka: 4
+> Brownsville: 1
+> Erie: 3
+> ChulaVista: 4
+> Waterloo: 2
+> PortSaintLucie: 5
+> RichmondCounty: 3
+> JohnsonCity: 3
+> St.Louis: 5
+> Grayslake: 3
+> ElPaso: 5
+> Anaheim: 3
+> BatonRouge: 3
+> Savannah: 4
+> Temecula: 3
+> Athens: 2
+> OverlandPark: 2
+> Hollywood: 5
+> Knoxville: 3
+> Sarasota: 3
+> HuntingtonBeach: 4
+> LosAngeles: 3
+> Newark: 5
+> ElMonte: 4
+> BelAir: 1
+> VirginiaBeach: 3
+> Joliet: 4
+> Ithaca: 2
+> Louisville: 0
+> Washington: 1
+> RoundLakeBeach: 3
+> Omaha: 3
+> Nashua: 4
+> NewYork: 3
+> Davenport: 5
+> Denver: 3
+> Dallas: 2
+> Clearwater: 6
+> ElkGrove: 4
+> SanJose: 2
+> DaytonaBeach: 1
+> Yakima: 4
+> FortWayne: 4
+> SantaCruz: 4
+> Garland: 1
+> Asheville: 2
+> AppleValley: 3
+> CollegeStation: 4
+> Evansville: 4
+> Lacey: 5
+
+
+
+
+
+Exception in thread "main" java.lang.NullPointerException
+	at graph.ShortestPaths.compute(ShortestPaths.java:49)
+	at graph.ShortestPaths.main(ShortestPaths.java:174)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s
+
+#######################################################################################################
+############################## Test04.txt Louisville to Denver ########################################
+#######################################################################################################
+
+
+
+
+
+Test 10 failed
+=============
+< "Your output"
+---
+> "Expected output"
+=============
+4a5,6
+> Louisville Washington Athens OverlandPark Denver 88.0
+> Louisville BelAir Asheville Denver 3
+
+
+
+
+
